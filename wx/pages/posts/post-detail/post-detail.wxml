@@ -1,0 +1,25 @@
+<!--pages/posts/post-detail/post-detail.wxml-->
+<view class='container'>
+<!-- 顶部图片以及音乐 -->
+  <image class='head_image' src='{{postData.headImageSrc}}'></image>
+  <image class='audio' src="/images/music/music-start.png"></image>
+  <!-- 作者 -->
+  <view class='author_date'>
+    <image class='avatar' src='{{postData.avatar}}'></image>
+    <text class='author'>{{postData.author}}</text>
+    <text class='const-text'>发表于</text>
+    <text  class='const-text'>{{postData.deteTime}}</text>
+  </view>
+  <!-- 文字 -->
+  <text class='title'>{{postData.title}}</text>
+  <view class='tool'>
+    <view class='circle_img'>
+               <!-- 收藏/未收藏  两张图片都绑定是、一个事件-->
+      <image wx:if="{{collected}}"  catchtap='onCollectionTap' src='/images/icon/collection.png'></image>
+      <image  catchtap='onCollectionTap'  wx:else  src='/images/icon/collection-anti.png'></image>
+      <image class='share_img'  src='/images/icon/share.png'></image>
+    </view>
+    <view  class='horizon'></view>
+  </view>
+  <text class='detail'>{{postData.detaile}}</text>
+</view>

@@ -1,0 +1,33 @@
+/* pages/posts/posts.wxss */
+/* 引入模板样式,要加分号 */
+@import 'post-item/post-item.wxss';
+
+
+.contanier{
+  background: #8e8e8e; 
+}
+/* 轮播图样式 */
+swiper{
+  width: 100%;
+  height: 600rpx;
+}
+
+swiper image{
+  width: 100%;
+  height: 600rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

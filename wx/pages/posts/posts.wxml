@@ -1,0 +1,27 @@
+ <!--pages/posts/posts.wxml-->
+ <!-- 引入模板 相对路径，绝对路径都可以-->
+ <import src="/pages/posts/post-item/post-item.wxml"/>
+
+<view class='contanier'>
+<!-- 轮播图 -->
+  <swiper indicator-dots='true' autoplay='true' vertical='true' interval='2000'>
+    <swiper-item>
+      <image src='/images/alt.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/xlgs.png'></image>
+    </swiper-item> 
+    <swiper-item>
+      <image src='/images/lps.png'></image>
+    </swiper-item>
+  </swiper>
+<!-- 推文 --> 
+  <!-- 一 -->
+  <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="i" wx:key="item.i"> <!--包裹被循环的代码-->
+    <view  catchtap='onPostTop' data-postId='{{item.postId}}'> <!--自定义属性，将循环的数据的id进行绑定-->
+                      <!--加三个...，意味着，将数据表中把对象展开平铺，循环对象后就不用item.img,直接加img就可以了  -->
+      <template is='postItem' data="{{...item}}" /> <!--引入的模板组件,无法绑定事件，会被编译-->
+    </view>
+  </block> 
+
+</view>

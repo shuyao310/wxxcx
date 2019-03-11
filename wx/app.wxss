@@ -1,0 +1,5 @@
+/**app.wxss**/
+text{
+  font-family: Mi croSoft YaHei;
+  font-size: 12px;
+}

@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- <text>pages/welcome/welcome.wxml</text> -->
+<view class='container'>
+  <image class='uer_avatar' src='/images/txPic.jpg'></image> 
+  <text class='use_name'>Hello , 三月</text>
+  <view class='moto_container' bindtap='onTap'>
+      <text class='moto'>开启电影之旅</text>
+  </view>
+</view>

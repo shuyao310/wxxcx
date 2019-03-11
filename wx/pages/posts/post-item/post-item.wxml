@@ -1,0 +1,23 @@
+<!-- 模板文件 -->
+<template name="postItem"> <!--引入时的name,template is='postItem'-->
+  <view class='post_container'>
+    <view class='post_author_data'>
+      <image class='post_author' src='{{avatar}}'></image>
+      <text class='post_data'>{{date}}</text>
+    </view>
+    <text class='post_title'>{{title}}</text>
+    <image class='post_img' src='{{imgSrc}}'></image>
+    <text class='post_content'>{{content}}</text>
+    <view class='post_like'>
+      <image class='post_like_img' src='/images/icon/chat.png'></image>
+      <text class='post_like_font'>{{reading}}</text>
+      <image class='post_like_img' src='/images/icon/view.png'></image>
+      <text class='post_like_font'>{{collection}}</text>
+    </view>
+  </view>
+</template>
+
+
+
+
+
