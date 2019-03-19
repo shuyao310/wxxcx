@@ -7,7 +7,7 @@ var local_database= [{
     collection: "98",
     avatar: "/images/avatar/1.png",
     headImageSrc:"/images/post/cm.png",
-    author:"林白衣",
+    author:"mu",
     deteTime:"24小时前",
   detaile: "对于这种傀儡生活，早已明白真相的其他演员视之如圭臬，他们称它“典范的生活”，“完美的生活”，“我的全部生活”。当人懂得和体制交换的时候，他们可以将真实的自己和盘托出，因为他们的眼里，在与体制作出等价交换以前，真实对他们什么也不是。",
     postId:0
@@ -20,8 +20,8 @@ var local_database= [{
     reading: "112",
     collection: "98",
     avatar: "/images/avatar/2.png",
-    headImageSrc: "/images/post/hw.png",
-    author: "林白衣",
+    headImageSrc: "/images/avatar/2.png",
+    author: "mu",
     deteTime: "24小时前",
     detaile: "这场梦始于失落的亚特兰蒂斯，继而又按图索骥，如探索迷宫般牵引出整座深海帝国的神秘版图，看似不过闯关游戏式的老套路，其实还是以西方古典神话为模本的，类似亚瑟王寻找圣杯",
     postId:1
@@ -35,7 +35,7 @@ var local_database= [{
     collection: "98",
     avatar: "/images/avatar/2.png",
     headImageSrc: "/images/post/thwj.png",
-    author: "林白衣",
+    author: "mu",
     deteTime: "24小时前",
     detaile: "詹姆斯哈利迪（马克·里朗斯 Mark Rylance 饰）一手建造了名为“绿洲”的虚拟现实游戏世界，临终前，他宣布自己在游戏中设置了一个彩蛋，找到这枚彩蛋的人即可成为绿洲的继承人。要找到这枚彩蛋，必须先获得三把钥匙，而寻找钥匙的线索就隐藏在詹姆斯的过往之中",
     postId: 2
@@ -49,7 +49,7 @@ var local_database= [{
     collection: "98",
     avatar: "/images/avatar/2.png",
     headImageSrc: "/images/post/dy.png",
-    author: "林白衣",
+    author: "mu",
     deteTime: "24小时前",
     detaile: "艾迪（汤姆·哈迪 Tom Hardy 饰）是一位深受观众喜爱的新闻记者，和女友安妮（米歇尔·威廉姆斯 Michelle Williams 饰）相恋多年，彼此之间感情十分要好。安妮是一名律师，接手了生命基金会的案件，在女友的邮箱里，艾迪发现了基金会老板德雷克（里兹·阿迈德 Riz Ahmed 饰）不为人知的秘密。",
     postId: 3
